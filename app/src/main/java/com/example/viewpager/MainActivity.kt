@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         }.attach()
     }
 
-    fun getFragments(): List<Fragment> {
+    private fun getFragments(): List<Fragment> {
         return listOf(
             PlaceholderFragment.newInstance(
                 "First Fragment",
